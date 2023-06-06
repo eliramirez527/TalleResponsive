@@ -1,0 +1,30 @@
+.flex-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 1000px;
+}
+.flex-container>div{
+    height: 1000px;
+    width: 100%;
+    border: 5px solid #fff;
+}
+.flex-container > .tropical{
+    background: url(../Img/img1.jpg);
+}
+.flex-container > .cold{
+    background: url(../Img/img2.jpg);
+}
+.flex-container > .pnw{
+    background: url(../Img/img3.jpg);
+}
+.flex-container > .desert{
+    background: url(../Img/img4.jpg);
+}
+@media only screen and (max-with: 1000px){
+    .flex-container{
+        flex-wrap: wrap;
+    }
+}
+
+
